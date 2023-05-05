@@ -1,0 +1,31 @@
+.container {
+  width: 50%;
+  margin: 0px auto;
+}
+.section-title h1,
+.section-title h2 {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.section-title p {
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-weight: 200;
+  text-align: center;
+}
+.btn {
+  background-color: black;
+  color: white;
+  margin-top: 12px;
+  padding: 8px 12px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #ccc;
+  color: black;
+}

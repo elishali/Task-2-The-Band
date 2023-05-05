@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+body {
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  background: black;
+  color: white;
+  overflow: auto;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+header nav {
+  float: left;
+}
+header ul li {
+  float: left;
+}
+header ul a {
+  display: inline-block;
+  height: 45px;
+  font-size: 15px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+header ul a:hover {
+  background: #ccc;
+  color: black;
+}
+header ul a i {
+  margin-left: 5px;
+}
+header .search-btn {
+  float: right;
+  height: 45px;
+  padding: 0px 20px;
+  background-color: transparent;
+}
+header .search-btn:hover {
+  background-color: #f44336;
+}
+header .search-btn i {
+  font-size: 15px;
+  color: white;
+}
+#Banner {
+  height: calc(100vh - 45px);
+  background: red url(../images/bg.jpg);
+  background-position: center right;
+  position: relative;
+}
+#Banner::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+.banner-content {
+  color: white;
+  position: relative;
+  z-index: 10;
+  padding-top: 570px;
+  text-align: center;
+}
+.banner-content p {
+  margin-top: 12px;
+}
+#About {
+  padding: 100px 0px;
+  text-align: center;
+  overflow: auto;
+}
+
+#About .about-desc {
+  text-align: justify;
+  font-size: 15px;
+}
+#About .article-list {
+  margin-top: 50px;
+}
+#About .article-list article {
+  float: left;
+  width: calc(100% / 3);
+  padding: 0px 40px;
+}
+#About .article-list article img {
+  width: 100%;
+  margin-top: 20px;
+}
+#Tour {
+  padding: 100px 0px;
+  background: black;
+  overflow: auto;
+}
+#Tour .section-title {
+  color: white;
+}
+#Tour ul {
+  background: white;
+  border-radius: 1px;
+}
+#Tour ul li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 12px 20px;
+  font-size: 15;
+  color: #757575;
+}
+#Tour ul .status {
+  background-color: #f44336;
+  color: white;
+  display: inline-block;
+  padding: 4px 8px;
+  margin-left: 8px;
+}
+#Tour ul .count {
+  background-color: black;
+  color: white;
+  padding: 3px 9px;
+  border-radius: 50%;
+  float: right;
+  margin-top: -3px;
+}
+#Tour .ticket-list {
+  margin-top: 40px;
+}
+#Tour .ticket-list article {
+  width: calc(100% / 3 - 10px);
+  background: white;
+  float: left;
+}
+#Tour .ticket-list article:nth-child(2) {
+  margin: 0px 15px;
+}
+#Tour .ticket-list article img {
+  width: 100%;
+}
+#Tour article .article-text {
+  padding: 12px;
+}
+#Tour article h3 {
+  font-size: 15px;
+  font-weight: 800;
+}
+#Tour article span {
+  display: inline-block;
+  margin: 20px 0px;
+}
+#Contact {
+  padding: 100px 0px;
+  background-color: white;
+  overflow: auto;
+}
+#Contact article {
+  width: calc(100% / 2);
+  float: left;
+}
+#Contact .ul-list i {
+  padding: 6px 20px;
+}
+#Contact .ul-list li {
+  font-size: 18px;
+}
+#Contact table {
+  float: right;
+}
+#Contact table td {
+  padding: 3px 6px;
+}
+#Contact table .namemail {
+  font-size: 10px;
+  width: 172px;
+  height: 40px;
+  font-size: 15px;
+  padding-left: 6px;
+  border: 1px solid #ccc;
+}
+#Contact table .message {
+  font-size: 10px;
+  width: 360px;
+  height: 40px;
+  font-size: 15px;
+  padding-left: 6px;
+  border: 1px solid #ccc;
+}
+#Contact .btn {
+  float: right;
+  padding: 10px 14px;
+  margin-right: 8px;
+}
+#Footer {
+  padding: 70px 0px;
+  text-align: center;
+}
+#Location img {
+  max-width: 100%;
+}
+#Footer .icon i {
+  font-size: 25px;
+  padding: 15px 2px;
+  color: #656565;
+  font-weight: 300;
+}
+
+#Footer .icon i:hover {
+  background-color: rgba(171, 168, 168, 0.1);
+  color: rgb(194, 192, 192);
+  border-radius: 50%;
+}
+#Footer p {
+  font-size: 15px;
+  font-weight: 300;
+  color: #757575;
+}
+#Footer p a {
+  text-decoration: underline;
+  padding-left: 4px;
+}
